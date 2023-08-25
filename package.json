@@ -5,20 +5,15 @@
   "main": "index.js",
   "scripts": {
     "prestart": "npm install",
-    "start": "forever server.js",
-    "watch": "forever -w server.js"
+    "start": "nodemon server.js"
   },
   "author": "coursar",
   "license": "ISC",
   "dependencies": {
-    "forever": "^2.0.0",
-    "koa": "^2.13.1",
+    "koa": "^2.14.2",
     "koa-body": "^4.2.0",
     "koa-static": "^5.0.0",
+    "nodemon": "^3.0.1",
     "uuid": "^8.3.2"
-  },
-  "engines": {
-    "node": "12.x"
   }
 }
-
